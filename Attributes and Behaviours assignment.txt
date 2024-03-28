@@ -1,0 +1,50 @@
+Attributes and Behaviours of the class University:
+--------------------------------------------------
+
+Attributes / Variables:  
+--> StudentID 
+--> StudentName
+--> Branch
+--> Rank
+--> Location
+
+Behaviours / Methods : 
+--> GetStudentID
+--> SetStudentID
+--> GetStudentName
+--> SetStudentName
+--> GetRank  
+
+Attributes and Behaviours of the class Bank:
+--------------------------------------------
+Attributes / Variables: 
+--> BankName
+--> BankAccountHolderName
+--> IFSC_Code
+--> Branch_Name
+--> Balance
+--> AccountType
+
+Behaviours / Methods : 
+--> GetBankName
+--> GetBankAccountHolderName
+--> GetIFSC_Code
+--> GetBalance
+--> GetAccountType
+
+
+Attributes and Behaviours of the class Theatre:
+--------------------------------------------
+Attributes / Variables: 
+--> Book_Ticket
+--> SeatNumber
+--> MovieName
+--> TheatreName
+--> BookingType
+
+Behaviours / Methods :
+--> GetBook_Ticket
+--> GetSeatNumber
+--> GetMovieName
+--> GetTheatreName
+--> GetBookingType 
