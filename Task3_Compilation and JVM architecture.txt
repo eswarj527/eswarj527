@@ -1,0 +1,52 @@
+Q1: Compilation and JVM architecture ?
+
+Compiler: 
+=========
+A Compiler is a program that translates a Progrmming language's source code into machine code. 
+
+In this Java compiler is compile the code and genarates the class file of the source code
+
+==> Java Program (Source Code)  
+==> Compiler changes to source code to byte code i.e Class file 
+==> JDK(Java Development Kit) is a byte code converted into binaries used by Interpreter.
+==> Java Virtual Machine (JVM) is accept the class files
+==> JRE + JVM run the java code and generate the class file 
+
+JVM (Java Virtual Machine):
+---------------------------
+  --> In side of the JVM, load the class files into JVM memory using by the Class Loader
+  --> Bytecode Verifier is check the class files are valid or not
+  --> JIT(Just In Time) compilation is the default option and is suitable for development and small projects.
+  --> AOT(Ahead of Time)  compilation, on the other hand, offers better performance and is recommended for larger projects or production environments.
+  --> Security Manager is an object that defines a security policy for an application
+
+Q2: Java EE, SE and ME?
+
+Java SE:
+--------
+  --> In this Java Standard Edition is the core Java programming platform. 
+  -->It contains all of the libraries and APIs that any Java programmer should learn (java.lang, java.io, java.math, java.net, java.util, etc...
+
+Java EE:
+--------
+  --> It's Stands as Java Platform, Enterprise Edition. 
+  --> The Java EE comes with some advanced Java specifications on collaboration with the Java Standard Edition (Java SE).
+  --> Built on top of Java SE, it provides libraries for database access (JDBC, JPA), remote method invocation (RMI), messaging (JMS), web services, XML processing, and defines standard APIs for Enterprise JavaBeans, servlets, portlets, Java Server Pages, etc...
+
+Java ME:
+--------
+ --> It's Stands as Micro Edition. 
+ --> This is the platform for developing applications for mobile devices and embedded systems such as set-top boxes.
+ --> Java ME provides a subset of the functionality of Java SE, but also introduces libraries specific to mobile devices.
+ --> Because Java ME is based on an earlier version of Java SE, some of the new language features introduced in Java 1.5 (e.g. generics) are not available.
+
+
+
+
+
+
+
+
+
+
+
