@@ -1,0 +1,57 @@
+1. Java Program without Args:
+
+
+package TechM;
+
+public class withOutArg {
+ public static void main(String []) 
+ {
+	 System.out.println("Without Args programs");
+ }
+}
+
+2. Java Program without String :
+
+
+package TechM;
+
+public class withOutString {
+ public static void main(args[]) 
+ {
+	 System.out.println("Without Args programs");
+ }
+}
+
+
+3. Java Program without Void :
+
+package TechM;
+
+public class withOutArg {
+ public static  main(String args[]) 
+ {
+	 System.out.println("Without Args programs");
+ }
+}
+
+
+
+Error: Main method not found in class TechM.WithOutArg, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+
+4. 
+
+package TechM;
+
+public class full_Program {
+ public static void main(String args[]) 
+ {
+	 System.out.println("Without Args programs");
+ }
+}
+
+
+Output: Without Args programs
+
