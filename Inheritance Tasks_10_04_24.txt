@@ -1,0 +1,96 @@
+Inheritance Tasks:
+------------------
+1.what if my child class has lesser access modifier? // private void walk()
+
+If we do like this...  In parent class, method defined as public access modifier and child class defined with private access modifier. It will getting compilation error.
+
+In this case, We need to use only same access modifiers like public, protect and default access modifiers
+
+But not "private" access modifier
+
+2. Calc, scientific calc, programmer calc - implement complete inheritance(overriding,uniq methd...)
+
+Calculators (Parent Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+
+Standard   (Child Class)
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Percentage() {}  //Unique Method
+
+Scientific (Child Class)
+
+     Addition() {} 
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Trigonometry() {} //Unique Method
+     Function() {} //Unique Method
+
+programmer  (Child Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Bitwise() {} //Unique Method
+     Bitshift() {} //Unique Method
+
+3. Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritance
+
+Electronic Broadcast (Parent class)
+
+    Audio() {}
+    Play() {}
+    Stop() {}
+
+Radio (Child class)
+    
+    Audio() {}
+    Recording() {}
+    Play() {}
+    Stop() {}
+    Audio_disc() {} // unique method
+
+TV  (Child class)
+    Audio() {}
+    Play() {}
+    Stop() {}
+    Video() {} // unique method
+    Video_Recording() {} //unique method
+
+DVD Player (Child class)
+    
+    Audio() {}
+    Play() {}
+    Stop() {}
+    Video_Disc() {} // unique method
+    Mic() {} //Unique method
+
+4. Admin, Manager, Finance - idetify the parent class and implement inheritance
+
+Department (Parent class)
+     login() {}
+     logout() {}  
+     campany() {}
+
+Manager  (child class)
+     login() {} 
+     logout() {} 
+     campany() {}
+     employee_Records() {} // Unique method
+     
+Finance  (child class)
+
+     login() {}
+     logout() {}
+     campany() {}
+     accounts() {}// unique method
+     salary() {} // unique method
+     
